@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.main-container{
+    max-width: 1124px;
+    margin: 0 auto;
+    height: 750px;
+    border: 2px solid #333;
+ 
+    position: relative;
+    top : 0;
+   
+    
+}
+.clear-fix {
+    clear: both;
+}
+#div1 {
+    width: 20%;
+    float: left;
+   padding: 2%;
+   
+    position : absolute;
+    background-color: slategray;
+   
+}
+
+#div2 {
+    width: 80%;
+    float: left;
+    padding: 5%;
+   
+    position : absolute;
+    top: 0;
+    left: 20%;
+}
+.div11 {
+    width: 100%;    
+    }
+
+.div11 img {
+    border-radius: 50%;
+    box-shadow: 2px 2px 8px 10px rgba(124, 128, 125, .2);
+}
+#div_top {
+    width: 100%;
+    float: left;
+    margin-bottom: 3%;
+    background: #d9dbda;
+    padding: 3%;
+}
+#div_work {
+    width: 50%;
+    float:  left;
+    line-height: 1.5;
+    background: lightgreen;
+    padding : 2%;
+    border: 2px solid black;
+}
+#div_education {
+    width : 50%;
+    float :left;
+    line-height: 1.5;
+    padding : 2%;
+    background: #d2cbd8;
+    border: 2px solid black;
+}
+#div_middle {
+    width: 100%;
+    float: left;
+    background-color: royalblue;
+    padding: 5%;
+
+}
+#div_middle:hover > spam{
+    font-style: italic;
+    background-color: saddlebrown;
+}
+.sh_ul {
+    display: none;
+}
+
+.sh_ct:hover +ul {
+
+    background-color: red;
+    
+
+    display: block;
+}
+.to_ul {
+    display :none;
+}
+.to_cl:hover+ul {
+    display: block;
+    background-color:red;
+}
+.ed_cl:hover {
+    background-color:red;
+    height:180px;
+    transition: height 1s,background 3s;
+
+}
+
+.div11:hover p{
+    background-color:red;
+    height:80px;
+    transition: height 4s,background 5s;
+    font-style: italic;
+}
