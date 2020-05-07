@@ -13,7 +13,7 @@ body {
 .main-container{
     max-width: 1124px;
     margin: 0 auto;
-    height: 750px;
+    height: 850px;
     border: 2px solid #333;
  
     position: relative;
@@ -132,4 +132,16 @@ ul>li {
 .sec_heading:hover {
     margin-left: 80px;
     transition : margin 2s;
+}
+.common {
+    background-color: indigo;
+    height: 20px;
+    width: 40px;
+
+}
+.common:hover {
+    background-color: red;
+    height: 20px;
+    width: 600px;
+    transition: width 3s, background 4s;
 }
